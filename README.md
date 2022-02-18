@@ -1,5 +1,5 @@
 # Readme Creator
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/Jiyeon31/undefined?style=flat&logo=appveyor) 
+  ![Badge for GitHub](https://img.shields.io/github/languages/top/Jiyeon31/readmecreator?style=flat&logo=appveyor) 
   
   
   ## Description 
@@ -36,7 +36,7 @@
   ---
   
   ## Questions?
-  <img src="https://avatars.githubusercontent.com/u/94870473?v=4" alt="Jiyeon31" width="40%" />
+  <img src="https://avatars.githubusercontent.com/u/94870473?v=4" alt="Jiyeon31" width="10%" height="10%" />
   
   For any questions, please contact me with the information below:
  
