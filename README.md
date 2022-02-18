@@ -36,7 +36,7 @@
   ---
   
   ## Questions?
-  <img src="https://avatars.githubusercontent.com/u/94870473?v=4" alt="Jiyeon31" width="40%" height="40%" />
+  <img src="https://avatars.githubusercontent.com/u/94870473?v=4" alt="Jiyeon31" width="30%" height="30%" />
   
   For any questions, please contact me with the information below:
  
