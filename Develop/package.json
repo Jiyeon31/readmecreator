@@ -9,10 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "api": "^4.2.0",
     "axios": "^0.26.0",
     "fs": "^0.0.1-security",
-    "inquirer": "^6.5.2",
-    "require": "^2.4.20",
+    "inquirer": "^8.2.0",
+    "nstall": "^0.2.0",
+    "require": "^0.4.4",
     "util": "^0.12.4"
   }
 }

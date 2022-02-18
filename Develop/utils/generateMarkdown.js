@@ -1,38 +1,40 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-let licenseList = '## License';
+const licenseApi = require('./api');
+let licenseList = `${licenseApi.license}`
 let noLicense = '';
 
 function renderLicenseBadge() {
-  if(licenseList = null) {
+  if(licenseList = undefined) {
     return noLicense;
   } else {
-  return `![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repository}?style=flat&logo=appveyor)
+  return `![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
   `}
 };
-module.exports = renderLicenseBadge;
+
+console.log(renderLicenseBadge);
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink() {
-  if(licenseList = null) {
+  if(licenseList = undefined) {
     return noLicense;
   } else {
   return `
-  (https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repository}?style=flat&logo=appveyor)
+  (https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
   `}
 }
-module.exports = renderLicenseLink;
+console.log(renderLicenseLink);
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(l) {
-  let licenseSec = `## License`;
-  if(licenseList = null) {
+function renderLicenseSection() {
+  let licenseSec = `${userResponses.license}`;
+  if(licenseList = undefined) {
     return noLicense;
   } else {
   return `${licenseSec}
   `}
 }
-module.exports = renderLicenseSection;
+console.log(renderLicenseSection);
 function generateMarkdown(userResponses, userInfo) {
 
   // Plug userReponses into table of contents
@@ -57,7 +59,7 @@ function generateMarkdown(userResponses, userInfo) {
   // Generate badges
   let markdownFunc = 
   `# ${userResponses.title}
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repository}?style=flat&logo=appveyor) 
+  ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) 
   
   
   ## Description 
@@ -134,7 +136,7 @@ function generateMarkdown(userResponses, userInfo) {
   ---
   
   ## Questions?
-  <img src="${userInfo.avatar_url}" alt="${userInfo.login}" width="40%" />
+  <img src="${userInfo.avatar_url}" alt="${userInfo.login}" width="10%" height="10%" />
   
   For any questions, please contact me with the information below:
  
