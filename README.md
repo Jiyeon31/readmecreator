@@ -5,7 +5,7 @@
   ## Description 
   
   
-  it lets you to create readme file easily
+  It lets you create appropriate readme file fast
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -17,12 +17,12 @@
   ## Installation
   
   
-  copy SSH address and git clone
+  copy SSH and git clone
   
   ## Usage 
   
    
-  for making readme file easily
+  when you need a readme file for your github
     
   ## License
     
@@ -32,7 +32,7 @@
   ## Tests
   
   
-  no
+  No test yet
   ---
   
   ## Questions?
