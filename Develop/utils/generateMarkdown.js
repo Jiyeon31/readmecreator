@@ -136,7 +136,7 @@ function generateMarkdown(userResponses, userInfo) {
   ---
   
   ## Questions?
-  <img src="${userInfo.avatar_url}" alt="${userInfo.login}" width="40%" height="40%" />
+  <img src="${userInfo.avatar_url}" alt="${userInfo.login}" width="30%" height="30%" />
   
   For any questions, please contact me with the information below:
  
