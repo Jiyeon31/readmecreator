@@ -1,11 +1,9 @@
-# Readme Creator
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/Jiyeon31/readmecreator?style=flat&logo=appveyor) 
+# Readme Creator 
   ![License](https://img.shields.io/badge/License-Unlicense-blue.svg)
   
   ## Description 
   
-  
-  you can create readme file easily
+  It helps you to create readme file easily
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -16,23 +14,17 @@
   
   ## Installation
   
-  
-  copy SSH and git clone
+  copy SSH and git clone on bash
   
   ## Usage 
   
-   
-  for making writing readme file easier
+  to write readme file faster
     
   ## License
     
   ![License](https://img.shields.io/badge/License-Unlicense-blue.svg)
+  Unlicense-blue
   
-  
-  ## Tests
-  
-  
-  not yet
   ---
   
   ## Questions?
@@ -40,5 +32,6 @@
   
   For any questions, please contact me with the information below:
  
-  GitHub: [@Jiyeon31](https://api.github.com/users/Jiyeon31)
+  GitHub: [Jiyeon You](https://github.com/Jiyeon You)<br />
+
   
