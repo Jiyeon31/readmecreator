@@ -3,7 +3,7 @@
   
   ## Description 
   
-  make writing readme file easier
+  to make you write readme file easier
   
   ## Table of Contents
   * [Installation](#installation)
@@ -19,7 +19,7 @@
   
   ## Usage 
   
-  answer questions and get read me file
+  answer to questions and get readme file
     
   ## License
     
@@ -29,7 +29,7 @@
   
   ## Contributing
   
-  you can contact me with github and email
+  you can contact with me through email and github
   
   ## Tests
   
