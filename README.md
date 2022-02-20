@@ -4,6 +4,7 @@
   ## Description 
   
   make writing readme file easier
+  
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -18,7 +19,7 @@
   
   ## Usage 
   
-  answer questions and get readme file
+  answer questions and get read me file
     
   ## License
     
@@ -28,11 +29,11 @@
   
   ## Contributing
   
-  you can contact me on github or through email
+  you can contact me with github and email
   
   ## Tests
   
-  N/A
+  not yet
   ---
   
   ## Questions?
