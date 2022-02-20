@@ -1,11 +1,11 @@
 # Readme Creator
   ![Badge for GitHub](https://img.shields.io/github/languages/top/Jiyeon31/readmecreator?style=flat&logo=appveyor) 
-  
+  [![License](https://img.shields.io/badge/License-Unlicense-blue.svg)]
   
   ## Description 
   
   
-  It lets you create appropriate readme file fast
+  you can create readme file easily
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -22,17 +22,17 @@
   ## Usage 
   
    
-  when you need a readme file for your github
+  for making writing readme file easier
     
   ## License
     
-  Mozilla Public License 2.0
+  [![License](https://img.shields.io/badge/License-Unlicense-blue.svg)]
   
   
   ## Tests
   
   
-  No test yet
+  not yet
   ---
   
   ## Questions?
