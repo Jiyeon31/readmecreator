@@ -1,6 +1,6 @@
 # Readme Creator
   ![Badge for GitHub](https://img.shields.io/github/languages/top/Jiyeon31/readmecreator?style=flat&logo=appveyor) 
-  [![License](https://img.shields.io/badge/License-Unlicense-blue.svg)]
+  ![License](https://img.shields.io/badge/License-Unlicense-blue.svg)
   
   ## Description 
   
@@ -26,7 +26,7 @@
     
   ## License
     
-  [![License](https://img.shields.io/badge/License-Unlicense-blue.svg)]
+  ![License](https://img.shields.io/badge/License-Unlicense-blue.svg)
   
   
   ## Tests
