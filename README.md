@@ -3,7 +3,7 @@
   
   ## Description 
   
-  to make you write readme file easier
+  to help you create readme file faster
   
   ## Table of Contents
   * [Installation](#installation)
@@ -15,11 +15,11 @@
   
   ## Installation
   
-  copy SSH and do git clone
+  copy ssh and git clone
   
   ## Usage 
   
-  answer to questions and get readme file
+  answer questions and get readme file
     
   ## License
     
@@ -33,7 +33,7 @@
   
   ## Tests
   
-  not yet
+  n/a
   ---
   
   ## Questions?
