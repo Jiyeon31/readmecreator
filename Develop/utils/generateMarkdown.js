@@ -1,42 +1,24 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const licenseApi = require('./api');
-let licenseList = `${licenseApi.license}`
-let noLicense = '';
-
-function renderLicenseBadge() {
-  if(licenseList = undefined) {
-    return noLicense;
-  } else {
-  return `![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
-  `}
+function renderLicenseBadge(license) {
 };
 
 console.log(renderLicenseBadge);
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink() {
-  if(licenseList = undefined) {
-    return noLicense;
-  } else {
-  return `
-  (https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
-  `}
-}
+function renderLicenseLink(license) {
+};
+
 console.log(renderLicenseLink);
+
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection() {
-  let licenseSec = `${userResponses.license}`;
-  if(licenseList = undefined) {
-    return noLicense;
-  } else {
-  return `${licenseSec}
-  `}
-}
+function renderLicenseSection(license) {
+};
+
 console.log(renderLicenseSection);
 function generateMarkdown(userResponses, userInfo) {
-
+  var iconUrl = `![License](https://img.shields.io/badge/License-${userResponses.license}.svg)`;
   // Plug userReponses into table of contents
   let tableCon = `## Table of Contents`;
 
@@ -58,14 +40,13 @@ function generateMarkdown(userResponses, userInfo) {
   // Create title and description
   // Generate badges
   let markdownFunc = 
-  `# ${userResponses.title}
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) 
-  
+  `# ${userResponses.title} 
+  ${iconUrl}
   
   ## Description 
   
-  
   ${userResponses.description}
+  
   `
   // Add table of contents data to markdown
   markdownFunc += tableCon;
@@ -82,7 +63,6 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Installation
   
-  
   ${userResponses.installation}`
   };
 
@@ -95,7 +75,6 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Usage 
   
-   
   ${userResponses.usage}`
   };
   
@@ -105,27 +84,26 @@ function generateMarkdown(userResponses, userInfo) {
     
   ## License
     
+  ${iconUrl}
   ${userResponses.license}
   `;
   
   // Create contribution section
   if (userResponses.contributing !== '') {
+  markdownFunc +=
   `
   
   ## Contributing
-  
   
   ${userResponses.contributing}`
   };
 
   // Create tests section
   if (userResponses.tests !== '') {
-  
   markdownFunc +=
   `
   
   ## Tests
-  
   
   ${userResponses.tests}`
   };
@@ -140,15 +118,15 @@ function generateMarkdown(userResponses, userInfo) {
   
   For any questions, please contact me with the information below:
  
-  GitHub: [@${userInfo.login}](${userInfo.url})
-  `;
+  GitHub: (https://github.com/${userResponses.username})<br />
 
+  `;
   // If GitHub email is not null, add to Developer section
-  if (userInfo.email !== null) {
+  if (userResponses.email !== null) {
   
     questionSec +=
   `
-  Email: ${userInfo.email}
+  Email: ${userResponses.email}
   `};
 
  // Add developer section to markdown

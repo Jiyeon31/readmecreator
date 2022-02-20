@@ -22,6 +22,17 @@ const questions = [
     },
     {
         type: 'input',
+        message: "What is your email?",
+        name: 'email',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("An email is required.");
+            }
+            return true;
+        }
+    },
+    {
+        type: 'input',
         message: "What is your github repository name?",
         name: 'repo',
         validate: function (answer) {
@@ -76,7 +87,7 @@ const questions = [
     {
         type: 'list',
         message: "Choose a license for your project.",
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        choices: ['AGPL_v3', 'GPLv3-blue', 'LGPL_v3-blue', 'MPL_2.0-brightgreen', 'Apache_2.0-blue', 'MIT-yellow', 'Boost_1.0-lightblue', 'Unlicense-blue'],
         name: 'license'
     }
 ];
