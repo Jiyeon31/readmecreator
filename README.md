@@ -1,11 +1,10 @@
-# Readme Creator
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/Jiyeon31/readmecreator?style=flat&logo=appveyor) 
-  
+# Readme Creator 
+  ![License](https://img.shields.io/badge/License-Unlicense-blue.svg)
   
   ## Description 
   
+  to help you create readme file faster
   
-  It lets you create appropriate readme file fast
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -16,23 +15,25 @@
   
   ## Installation
   
-  
-  copy SSH and git clone
+  copy ssh and git clone
   
   ## Usage 
   
-   
-  when you need a readme file for your github
+  answer questions and get readme file
     
   ## License
     
-  Mozilla Public License 2.0
+  ![License](https://img.shields.io/badge/License-Unlicense-blue.svg)
+  Unlicense-blue
   
+  
+  ## Contributing
+  
+  you can contact with me through email and github
   
   ## Tests
   
-  
-  No test yet
+  n/a
   ---
   
   ## Questions?
@@ -40,5 +41,8 @@
   
   For any questions, please contact me with the information below:
  
-  GitHub: [@Jiyeon31](https://api.github.com/users/Jiyeon31)
+  GitHub: (https://github.com/Jiyeon31)<br />
+
+  
+  Email: zhdzhddlx@gmail.com
   
